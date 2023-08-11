@@ -1,0 +1,8 @@
+sudo systemctl start jenkins
+
+sudo systemctl restart jenkins
+
+sudo systemctl status jenkis.service
+
+//open a file from a directory
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
