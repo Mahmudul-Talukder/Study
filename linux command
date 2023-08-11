@@ -1,0 +1,15 @@
+//check all command in terminal
+history
+
+// java version update
+sudo update-alternatives --config java
+
+// sync java version by notepad
+sudo nano ~/.bashrc
+
+//save bashrc file
+source ~/.bashrc
+
+
+
+
