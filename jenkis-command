@@ -4,5 +4,10 @@ sudo systemctl restart jenkins
 
 sudo systemctl status jenkis.service
 
+
+docker run -p 8081:8080 -p 50000:50000 -d -v home:/var/jenkins_home jenkis/jenkins
+
+
+
 //open a file from a directory
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
